@@ -1,0 +1,17 @@
+spring:
+  redis:
+    database: 1
+    host: 127.0.0.1
+#    host: 47.102.192.121
+    port: 6379
+    password: 123456
+    pool:
+      test-while-idle: true
+      test-on-borrow: true
+
+    prefix: classpath:/templates/
+    check-template-location: true
+    suffix: .html
+    encoding: UTF-8
+    mode: LEGACYHTML5
+    cache: false
