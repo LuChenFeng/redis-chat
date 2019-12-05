@@ -1,8 +1,10 @@
+server:
+  port: 8100
 spring:
   redis:
     database: 1
     host: 127.0.0.1
-#    host: 47.102.192.121
+    #host: 47.102.192.121
     port: 6379
     password: 123456
     pool:
